@@ -1,22 +1,19 @@
 #Question: Two sum
 #Link: https://leetcode.com/problems/two-sum/submissions/2101830159
+#Initial approach: Doubel for loop iterate (worked)
 #Drawback of O(n^2) time complexity
+#Actual approach: Use map and find the value of target-current value in the map 
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> sol;
-        for(auto i=nums.begin();i!=nums.end();i++){
-            for(auto j=nums.begin();j!=nums.end();j++){
-                if(i==j){
-                    continue;
-                }
-                else if(*i+*j==target){
-                    sol.push_back(i-nums.begin());
-                    sol.push_back(j-nums.begin());
-                    return sol;
-                }
+        map<int, int> arr;
+        for(int i=0; i<nums.size();i++){
+            int ans=target-nums[i];
+            if(arr.find(ans)!=arr.end()){
+                return({arr[ans],i});
             }
+            arr[i]=i;
         }
-        return sol;
     }
 };
+#Time complexity O(n)
