@@ -7,13 +7,16 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         map<int, int> arr;
+        vector<int> sol;
         for(int i=0; i<nums.size();i++){
             int ans=target-nums[i];
             if(arr.find(ans)!=arr.end()){
-                return({arr[ans],i});
+                return {arr[ans],i};
             }
-            arr[i]=i;
+            arr[nums[i]]=i;
         }
+        return{};
     }
 };
+
 #Time complexity O(n)
