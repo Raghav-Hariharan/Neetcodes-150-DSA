@@ -1,4 +1,5 @@
 #Question: Group Anagrams
+#Difficulty: Medium
 #Initial Approach: A triple for loop checking frequency class of each string in the list and adding it to map. Time limit exceeded
 #Easier Approach: A map with keys are frequency class and strings as values leading to O(n^2 x k) time complexity
 #Link:https://leetcode.com/problems/group-anagrams/submissions/2107021127
