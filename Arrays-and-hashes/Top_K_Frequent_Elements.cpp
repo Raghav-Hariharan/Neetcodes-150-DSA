@@ -1,4 +1,5 @@
 #Question: Top K Frequent Elements
+#Difficulty: Medium
 #Approach: Use a map with key as number and value as the freqeuency, sort it and then a for loop to find k elemnts. 
 #Time Complexity: O(n logn)
 #Link: https://leetcode.com/problems/top-k-frequent-elements/submissions/2107045924
