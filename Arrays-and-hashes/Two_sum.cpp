@@ -1,4 +1,5 @@
 #Question: Two sum
+#Difficulty: Easy
 #Link: https://leetcode.com/problems/two-sum/submissions/2101830159
 #Initial approach: Doubel for loop iterate (worked)
 #Drawback of O(n^2) time complexity
