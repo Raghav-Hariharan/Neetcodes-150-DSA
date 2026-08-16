@@ -1,4 +1,5 @@
 #Question: Is Anagram
+#Difficulty: Medium
 #Initial approach: Create vectors and then remove letter from one if it exists in the other while iterating through the string, add it to solution string.
 #Problem: Unnessecarily complex 
 #Actual approach: Create an array with 26 indexes as values for each alphabet, add value for each iteraton and on the other subtract values. If all values of array is 0 return true
