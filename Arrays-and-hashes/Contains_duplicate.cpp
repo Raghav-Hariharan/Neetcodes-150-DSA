@@ -1,4 +1,5 @@
 #Question: Contains Duplicate
+#Difficulty: Easy
 #Initially: Made coding error on iterator using iterator in the seen condition
 #link: https://leetcode.com/problems/contains-duplicate/submissions/2101788168
 #Final solution
