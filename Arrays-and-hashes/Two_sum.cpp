@@ -1,7 +1,7 @@
 #Question: Two sum
 #Difficulty: Easy
 #Link: https://leetcode.com/problems/two-sum/submissions/2101830159
-#Initial approach: Doubel for loop iterate (worked)
+#Initial approach: Double for loop iterate (worked)
 #Drawback of O(n^2) time complexity
 #Actual approach: Use map and find the value of target-current value in the map 
 class Solution {
